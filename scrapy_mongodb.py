@@ -181,7 +181,8 @@ class MongoDBPipeline():
             ('buffer', 'MONGODB_BUFFER_DATA'),
             ('append_timestamp', 'MONGODB_ADD_TIMESTAMP'),
             ('append_spiderinfo', 'MONGODB_ADD_SPIDERINFO'),
-            ('stop_on_duplicate', 'MONGODB_STOP_ON_DUPLICATE')
+            ('stop_on_duplicate', 'MONGODB_STOP_ON_DUPLICATE'),
+            ('meta_field', 'MONGODB_METAFIELD')
         ]
 
         for key, setting in options:
